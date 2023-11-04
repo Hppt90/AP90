@@ -1,0 +1,202 @@
+        /*--- Adam Pho Portfolio ---*/
+
+        /*--- Banner ---*/
+        .Banner {
+            background-image: url('./assets/home.plants.pc.bg.masked.jpg');
+            background-size: cover;
+            background-position: center;
+
+            position: top;
+            position: relative;
+            
+            height : 90vh;
+            width: 100%;
+        }
+        
+        .BannerText {
+          padding-top: 25vh;
+          margin-left: 25vw;
+          width: 30vw;
+        }
+        .BannerTextDyrker {
+            color: #ffffff;
+            font-size: 22px;
+        }
+        .BannerTextSmukkePlanter {
+            color: #00a724;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .BannerTextMed {
+            color: #ffffff;
+            font-size: 18px;
+        }
+        .BannerTextKærlighed {
+            color: #ffffff;
+            font-size: 26px;
+            font-weight: bold;
+        }
+        .Velkommentext{
+          font-size: 12px;
+          color: #ffffff;
+          
+          position: absolute;
+          bottom: 32px;
+          right: 64px;
+          opacity: 70%;
+        }
+
+        
+        /*--- Information ---*/
+        .InfoAP {
+            background-color: #D9D8AE;
+            height: 250px;
+            width: 100%;
+            position: relative;
+            display:  flex;
+            justify-content: space-evenly;
+        }
+        .InfoAPText {
+          align-self: center;
+          width: 30vw;
+        } 
+        .InfoAPImage {
+          align-self: center;
+          width: 300px;
+          height: 150px;
+        }
+
+
+        /*--- Profile ---*/
+        .Profile {
+          background-color: #00a724;
+          padding: 0;
+          height: 600px;
+          display:  flex;
+          justify-content: space-evenly;
+        }
+        .ProfileText {
+          align-self: center;
+          width: 30vw;
+        } 
+        .ProfileImage {
+          align-self: center;
+          width: 300px;
+          height: 400px;
+        }
+
+
+        /*--- Erfaring ---*/
+        .Erfaring {
+          background-color: #ffffff;
+          padding: 0;
+          height: 600px;
+          
+          display:  flex;
+          justify-content: space-evenly;
+        }
+        .ErfaringText{
+          height: 500px;
+          width: 800px;
+          display:  flex;
+          justify-content: space-evenly;
+          flex-direction: column;
+        }
+
+
+        /*--- Kontakt ---*/
+        .Kontakt {
+            background-color: #00a724;
+            position: bottom;
+            height: 150px;
+        }
+        .KontaktText{
+          height: 50px;
+          width:  200px;
+          margin-left: 50px;
+          padding-top: 50px;
+          display:  flex;
+          justify-content: space-evenly;
+          flex-direction: column;
+        }
+
+
+        /*--- Fonts styles ---*/
+        .f12{
+          font-size: 12px;
+          color: #ffffff;
+        }
+        .f16{
+          font-size: 16px;
+          color: #ffffff;
+        }
+        .f16g{
+          font-size: 16px;
+          color: #00a724;
+        }
+        .f16b{
+          font-size: 16px;
+          color: #ffffff;
+          font-weight: bold;
+        }
+        .f26{
+          font-size: 26px;
+          color: #ffffff;
+        }
+        .f26b{
+          font-size: 26px;
+          color: #ffffff;
+          font-weight: bold;
+        }
+        .f32b{
+          font-size: 32px;
+          color: #ffffff;
+          font-weight: bold;
+        }
+        .f32bg{
+          font-size: 32px;
+          color: #00a724;
+          font-weight: bold;
+        }
+        .f42b{
+          font-size: 42px;
+          color: #ffffff;
+          font-weight: bold;
+        }
+        .f42bg{
+          font-size: 42px;
+          color: #00a724;
+          font-weight: bold;
+        }
+
+
+        /*--- Mobile styles ---*/
+        @media screen and (max-width: 768px) {
+          .BannerText{
+            width: 200px;
+          }
+
+          .InfoAP {
+            flex-direction: column;
+            height: 400px;
+          }
+          .InfoAPText{
+            width: 300px;
+          }
+
+          .Profile {
+            flex-direction: column;
+            height: 700px;
+          }
+          .ProfileText{
+            width: 300px;
+          }
+
+          .ErfaringText{
+            width: 300px;
+          }
+        }
+
+        
+        
+        
