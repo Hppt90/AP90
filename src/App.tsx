@@ -11,7 +11,8 @@ function App() {
        
         <div className="Banner">
             <div className="BannerText">
-                <div className="BannerTextDyrker">Dyrker <span className="BannerTextSmukkePlanter">SMUKKE</span></div>
+                <div className="BannerTextDyrker">Dyrker</div>
+                <div className="BannerTextSmukkePlanter">SUNDE</div>
                 <div className="BannerTextSmukkePlanter">PLANTER<span className="BannerTextMed"> med</span></div>
                 <div className="BannerTextKærlighed">KÆRLIGHED</div>
                 <div className="f26b">Lorem Ipsum: what to do </div>
