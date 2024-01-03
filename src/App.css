@@ -7,7 +7,7 @@
             background-position: center;
 
             position: top;
-            position: relative;
+            position: absolute;
             
             height : 90vh;
             width: 100%;
